@@ -1,0 +1,141 @@
+*{
+    margin:  0;
+    padding: 0;
+}
+
+header {
+    background: #AB2317;
+    text-align: left;
+    padding: 5px;
+    font-family: 'Source Serif Pro', greek;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+}
+
+.slide {
+    background: url("assets/vaccine.png");
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+}
+
+.welcome-text h1{
+    color: white;
+    position: relative;
+    width: 470px;
+    padding: 200px 0px 0px 149px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 98px;
+}
+
+.welcome-text h2{
+    color: white;
+    position: relative;
+    width: 487px;
+    padding: 10px 149px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+}
+
+.schedule-vaccine a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    width: 233px;
+    height: 36px;
+    margin-left: 149px;
+    top: 549px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 36px;
+    background: #AB2317;
+    padding: 25px 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.schedule-test {
+    color: white;
+    position: absolute;
+    width: 266px;
+    height: 36px;
+    margin-left: 149px;
+    top: 667px;
+
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 36px;
+
+    text-align: center;
+    background: #AB2317;
+    padding: 25px 33px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#location {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.spot {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+}
+
+.spot a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.info {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 100px;
+    line-height: 1.8;
+}
+
+.tcs-img {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 70px;
+    left: 500px;
+}
+
+#time {
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 150px;
+    text-align: center;
+}
+
+.date {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #eeeeee;
+    border: 1px solid #cccccc;
+}
+
