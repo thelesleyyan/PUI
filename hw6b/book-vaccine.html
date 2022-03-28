@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book your vaccine</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- javascript -->
+    <script src="main.js" type="text/javascript"></script>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Open+Sans|Avenir" rel="stylesheet">
+</head>
+
+<body style="background-image: url('assets/tartan.jpg');">
+    <header>
+        <div class="logo-banner">
+            <a href="homepage.html"> Carnegie Mellon University</a>
+            <div class=dropdown>
+                <button class="dropbtn">Lesley Yan</button>
+                <div class="dropdown-content">
+                    <a href="my-appointment.html">My Appointment</a>
+                    <a href="medical-history.html">Medical History</a>
+                    <a href="faqs.html">FAQs</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="content">
+    <!-- vaccine type -->
+        <div class="form-control">
+            <h2>Select the vaccine you want to receive</h2>
+            <label class="container">
+              <input type="radio" value="Pfizer" name="appointmentType">Pfizer
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">
+              <input type="radio" value="Moderna" name="appointmentType">Moderna
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">
+              <input type="radio" value="Johnson&Johnson" name="appointmentType">Johnson&Johnson
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">
+              <input type="radio" value="Others" name="appointmentType">Others
+              <span class="checkmark"></span>
+            </label>
+        </div>
+
+    <!-- vaccine order -->
+        <div class="form-control">
+            <h2>Choose the dose you need</h2>
+            <label class="container">
+              <input type="radio" value="1st dose" name="appointmentOrder">First dose
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">
+              <input type="radio" value="2nd dose" name="appointmentOrder">Second dose
+              <span class="checkmark"></span>
+            </label>
+
+            <label class="container">
+              <input type="radio" value="Booster" name="appointmentOrder">Booster
+              <span class="checkmark"></span>
+            </label>
+        </div>
+
+    <!-- symptoms -->
+         <div class="form-control">
+            <h2>Do you have any of the following symptoms?</h2>
+            <p>(Please check all that apply)</p>
+            <label class="container">
+                <input type="checkbox"
+                   name="symptom">Fever or chills</input></label>
+            <label class="container">
+                <input type="checkbox"
+                    name="symptom">Cough</input></label>
+            <label class="container">
+                <input type="checkbox"
+                    name="symptom">Shortness of breath or difficulty breathing</input></label>
+            <label class="container">
+                <input type="checkbox"
+                    name="symptom">Fatigue</input></label>
+            <label class="container">
+                <input type="checkbox"
+                    name="symptom">Muscle or body aches</input></label>
+            <label class="container">
+                <input type="checkbox"
+                    name="symptom">Headache</input></label>
+            <label class="container">
+                <input type="checkbox"
+                    name="symptom">New loss of taste</input></label>
+            <label class="container">
+                <input type="checkbox"
+                    name="symptom">New loss of smell</input></label>
+            <label class="container">
+                <input type="checkbox"
+                    name="symptom">Sore throat</input></label>
+            <label class="container">
+                <input type="checkbox"
+                    name="symptom">None of the above</input></label>
+        </div>
+
+        <div class="button-grp">
+            <button class="back-button"> <a href="homepage.html"> Go back</a></button>
+            <button class="confirm-button" onclick="confirmTypeDateTime()"> <a class="buttonlink" href="location.html"> Continue </a></button>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-section">
+            <div id="footer-info">
+                <p>Copyright 2022 Carnegie Mellon University. All rights reserved. </p>
+                <p>Designed by <a href="https://lesleyyan.com">Lesley Yan</a></p>
+                <p><a href="#">Terms of Service</a></p>
+                <p><a href="#">Privacy</a></p>
+            </div>
+            <div id="footer-links">
+                <ul>
+                    <li><a href="book-vaccine.html">Book a vaccine</a></li>
+                    <li><a href="book-testing.html">Book a testing</a></li>
+                </ul>
+                <ul>
+                    <li><a href="my-appointment.html">My appointment</a></li>
+                    <li><a href="medical-history.html">Medical History</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,294 @@
+* {
+    margin:  0;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 300;
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'DM Serif Display', serif;
+}
+
+
+header{
+    background: #AB2317;
+    text-align: left;
+    padding: 5px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'DM Serif Display', serif;
+}
+
+/*dropdown container*/
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+/*dropdown button for profile*/
+.dropdown .dropbtn {
+    font-size: 16px;
+    background-color: inherit;
+    color: white;
+    border: none;
+    font-family: inherit;
+    outline: none;
+    padding: 8px;
+    margin: 0;
+}
+
+/*dropdown content(hidden by default)*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Add a background color to navbar links on hover */
+.dropdown:hover .dropbtn {
+    text-decoration: underline;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 16px;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/*Add a background image for vaccine section*/
+#vaccine-img {
+    height: 580px;
+    padding-top: 1px;
+    background: url("assets/vaccine-img.png") no-repeat center;
+}
+
+/*Cancel the underline for "book now" button*/
+#vaccine-img a, #testing-img a {
+    text-decoration: none;
+}
+
+/*title text for vaccine & testing section*/
+#vaccine-img h1, #testing-img h1{
+    margin: 180px 0 40px 0;
+}
+
+/*style the "book now" button*/
+.button-1, .button-2{
+    display: block;
+    text-align: center;
+    background: #AB2317;
+    border-radius: 3px;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+}
+
+/*Add a background for button 1*/
+.button-1:hover {
+    background-color: #902E21;
+}
+
+/*Add a background for button 2*/
+.button-2:hover {
+    background-color: #902E21;
+}
+
+/*Add a background image for testing section*/
+#testing-img {
+    height: 580px;
+    padding-top: 1px;
+    background: url("assets/testing-img.png") no-repeat center;
+}
+
+.button-2 {
+    margin-bottom: 235px;
+}
+
+footer {
+    padding: 50px 50px 150px 50px;
+    background-color: #AB2317;
+    color: white;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+#footer-info {
+    width: 500px;
+    float: left;
+    margin-top: 10px;
+}
+
+#footer-links {
+    width: 520px;
+    float: right;
+}
+
+#footer-links ul {
+    width: 150px;
+    float: left;
+    margin-left: 100px;
+}
+
+#footer-links ul li {
+    margin: 10px 0;
+}
+
+/*Style the form*/
+#content {
+    background-color: #fff;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px 30px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Styling form-control Class */
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+/* Styling container class */
+.container {
+    display: block;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 18px;
+}
+
+.container input[type="radio"], .container input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Styling Button */
+.button-grp{
+    text-align: center;
+}
+
+.confirm-button {
+    display:inline-block
+    text-align: center;
+    background: #AB2317;
+    border-radius: 3px;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+    border: none;
+}
+
+.back-button {
+    display:inline-block
+    text-align: center;
+    background: #C1C1C1;
+    border-radius: 3px;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+    border: none;
+}
+
+/* Styling Button Text*/
+.confirm-button a, .back-button a {
+    text-decoration: none;
+    color: white;
+}
+/*Add a background for continue button*/
+.confirm-button:hover {
+    background-color: #902E21;
+}
+
+.back-button:hover {
+    background-color: #773838;
+}
+
+
+
+/* Styling h2 text */
+#content h2{
+    margin-bottom: 5px;
+}
+
+/* Styling p text */
+#content p{
+    margin-bottom: 5px;
+    color: blue;
+}
+
+#map iframe{
+    height: 800px;
+    width: 80%;
+    float: right;
+    display: block;
+}
+
+.location-content{
+    height: 800px;
+    margin-left: 50px;
+}
+
+#location-select h2{
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.button-next {
+    display: block;
+    float: left;
+    text-align: center;
+    background: #AB2317;
+    border-radius: 3px;
+    color: white;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.next a {
+    text-decoration: none;
+}
+
+/*Add a background for button next*/
+.button-next:hover {
+    background-color: #902E21;
+}
