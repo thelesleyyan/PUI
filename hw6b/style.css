@@ -253,9 +253,8 @@ footer a{
 }
 
 #map iframe{
-    height: 800px;
-    width: 80%;
-    float: right;
+    height: 400px;
+    width: 100%;
     display: block;
 }
 
