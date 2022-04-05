@@ -291,3 +291,30 @@ footer a{
 .button-next:hover {
     background-color: #902E21;
 }
+
+/*My appointment table*/
+.appt-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.appt-table tr:nth-child(even){background-color: #f2f2f2;}
+
+.appt-table tr:hover {background-color: #ddd;}
+
+.appt-table td, .appt-table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.appt-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #AB2317;
+  color: white;
+}
+

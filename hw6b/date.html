@@ -26,10 +26,46 @@
                 </div>
             </div>
         </div>
+
     </header>
     <div id="content" style="min-height: 800px;">
-        <div>
-            <a href="confirm.html">next</a>
+        <!-- Pick a date -->
+        <div class="form-control">
+            <div class="date-picker">
+                <h2>Select a date</h2>
+                <select id="dateDropdown">
+                    <option name="date" value="March 28, Monday">March 28, Monday</option>
+                    <option name="date" value="March 29, Tuesday">March 29, Tuesday</option>
+                    <option name="date" value="March 30, Wednesday">March 30, Wednesday</option>
+                    <option name="date" value="March 31, Thursday">March 31, Thursday</option>
+                    <option name="date" value="April 1, Friday">April 1, Friday</option>
+                    <option name="date" value="April 2, Saturday">April 2, Saturday</option>
+                    <option name="date" value="April 3, Sunday">April 3, Sunday</option>
+                </select>
+            </div>
+        </div>
+        <!-- Pick a time slot -->
+        <div class="form-control">
+            <div class="time-picker">
+                <h2>Select a time slot</h2>
+                <input type="radio" name="time" value="10:00AM" id="10am">
+                <label for="10am">10:00 AM</label><br>
+
+                <input type="radio" name="time" value="11:00AM" id="11am">
+                <label for="11am">11:00 AM</label><br>
+
+                <input type="radio" name="time" value="12:00PM" id="12pm">
+                <label for="12pm">12:00 PM</label><br>
+
+                <input type="radio" name="time" value="1:00PM" id="1pm">
+                <label for="1pm">1:00 PM</label><br>
+            </div>
+        </div>
+
+        <!-- confirm button -->
+        <div class="button-grp">
+            <button class="back-button"> <a href="book-vaccine.html"> Go back</a></button>
+            <button class="confirm-button" onclick="confirmDateTime()"> <a class="buttonlink" href="confirm.html"> Next </a></button>
         </div>
     </div>
 

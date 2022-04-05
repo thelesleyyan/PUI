@@ -37,13 +37,18 @@ function getTime() {
     console.log(time);
 }
 
-//call type, date, time
-function confirmTypeDateTime() {
+
+
+function confirmNameType() {
     getType();
     getOrder();
+}
+
+function confirmDateTime() {
     getDate();
     getTime();
 }
+
 
 // update confirmation page
 function confirmAppointmentType() {
@@ -86,6 +91,38 @@ function newAppointment() {
     console.log(appts);
     localStorage.setItem("appts",JSON.stringify(appts));
 }
+
+
+
+function loadAppointments() {
+    var appts = JSON.parse(localStorage.getItem("appts"));
+    let upcomingAppointments = document.getElementById("upcomingAppts");
+    console.log(appts);
+    if (appts.length === null) {
+        appts = [];
+        console.log(appts);
+        let noAppointments = document.getElementById("noUpcomingText");
+        noUpcomingText.innerHTML = "You have no upcoming appointments scheduled.";
+    }
+    else {
+        console.log(appts);
+        for(var n of appts) {
+            document.getElementById("appt-date").innerHTML=(n.date);
+            document.getElementById("appt-time").innerHTML=(n.time);
+            document.getElementById("appt-type").innerHTML=(n.type);
+            document.getElementById("appt-order").innerHTML=(n.order);
+
+        }
+    }
+
+
+}
+
+
+
+
+
+
 
 
 
