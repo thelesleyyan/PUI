@@ -12,7 +12,6 @@ h1 {
     font-family: 'DM Serif Display', serif;
 }
 
-
 header{
     background: #AB2317;
     text-align: left;
@@ -26,13 +25,13 @@ header a {
     font-family: 'DM Serif Display', serif;
 }
 
-/*dropdown container*/
+/* dropdown container */
 .dropdown {
     float: right;
     overflow: hidden;
 }
 
-/*dropdown button for profile*/
+/* dropdown button for profile */
 .dropdown .dropbtn {
     font-size: 16px;
     background-color: inherit;
@@ -44,7 +43,7 @@ header a {
     margin: 0;
 }
 
-/*dropdown content(hidden by default)*/
+/* dropdown content(hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -81,24 +80,24 @@ header a {
   display: block;
 }
 
-/*Add a background image for vaccine section*/
+/* Add a background image for vaccine section */
 #vaccine-img {
     height: 580px;
     padding-top: 1px;
     background: url("assets/vaccine-img.png") no-repeat center;
 }
 
-/*Cancel the underline for "book now" button*/
+/* Cancel the underline for "book now" button */
 #vaccine-img a, #testing-img a {
     text-decoration: none;
 }
 
-/*title text for vaccine & testing section*/
+/* title text for vaccine & testing section */
 #vaccine-img h1, #testing-img h1{
     margin: 180px 0 40px 0;
 }
 
-/*style the "book now" button*/
+/* style the "book now" button */
 .button-1, .button-2{
     display: block;
     text-align: center;
@@ -112,49 +111,55 @@ header a {
     margin: 0 auto;
 }
 
-/*Add a background for button 1*/
+/* Add a background for button 1 */
 .button-1:hover {
     background-color: #902E21;
 }
 
-/*Add a background for button 2*/
+/* Add a background for button 2 */
 .button-2:hover {
     background-color: #902E21;
 }
 
-/*Add a background image for testing section*/
+/* Add a background image for testing section */
 #testing-img {
     height: 580px;
     padding-top: 1px;
     background: url("assets/testing-img.png") no-repeat center;
 }
 
+/* keep a distance to the footer */
 .button-2 {
     margin-bottom: 235px;
 }
 
+/* Add a background for footer */
 footer {
     padding: 50px 50px 150px 50px;
     background-color: #AB2317;
     color: white;
 }
 
+/* Remove the underline for hyperlinked text */
 footer a{
     color: white;
     text-decoration: none;
 }
 
+/* Style the left side text in footer */
 #footer-info {
     width: 500px;
     float: left;
     margin-top: 10px;
 }
 
+/* Style the right side text in footer */
 #footer-links {
     width: 520px;
     float: right;
 }
 
+/* Style the bullet points */
 #footer-links ul {
     width: 150px;
     float: left;
@@ -188,6 +193,7 @@ footer a{
     font-size: 18px;
 }
 
+/* Change margin of the radio text */
 .container input[type="radio"], .container input[type="checkbox"] {
     margin-right: 5px;
 }
@@ -197,6 +203,7 @@ footer a{
     text-align: center;
 }
 
+/* Style confirm button */
 .confirm-button {
     display:inline-block
     text-align: center;
@@ -211,6 +218,7 @@ footer a{
     border: none;
 }
 
+/* Style back button */
 .back-button {
     display:inline-block
     text-align: center;
@@ -230,15 +238,15 @@ footer a{
     text-decoration: none;
     color: white;
 }
-/*Add a background for continue button*/
+/*Add a hovering effect for continue button*/
 .confirm-button:hover {
     background-color: #902E21;
 }
 
+/* Add a hovering effect for back button */
 .back-button:hover {
     background-color: #773838;
 }
-
 
 
 /* Styling h2 text */
@@ -252,22 +260,14 @@ footer a{
     color: blue;
 }
 
+/* Change the size of the map */
 #map iframe{
     height: 400px;
     width: 100%;
     display: block;
 }
 
-.location-content{
-    height: 800px;
-    margin-left: 50px;
-}
-
-#location-select h2{
-    padding-top: 50px;
-    padding-bottom: 10px;
-}
-
+/* Style next button */
 .button-next {
     display: block;
     float: left;
@@ -283,16 +283,17 @@ footer a{
     margin-top: 10px;
 }
 
+/* Style next button text */
 .next a {
     text-decoration: none;
 }
 
-/*Add a background for button next*/
+/* Add a background for button next */
 .button-next:hover {
     background-color: #902E21;
 }
 
-/*My appointment table*/
+/* My appointment table */
 .appt-table {
     border-collapse: collapse;
     width: 100%;
@@ -301,10 +302,13 @@ footer a{
     margin-top: 30px;
 }
 
+/* My appointment table shifting color */
 .appt-table tr:nth-child(even){background-color: #f2f2f2;}
 
+/* My appointment table hovering effect */
 .appt-table tr:hover {background-color: #ddd;}
 
+/* My appointment table size */
 .appt-table td, .appt-table th {
   border: 1px solid #ddd;
   padding: 8px;
@@ -317,4 +321,37 @@ footer a{
   background-color: #AB2317;
   color: white;
 }
+
+/* Style the confirmation message */
+#appointment-confirmation p{
+    color: black;
+    padding: 15px;
+    line-height: 30px;
+}
+
+/* Style the return home button */
+.return-home {
+    display: block;
+    text-align: center;
+    background: #AB2317;
+    border-radius: 3px;
+    color: white;
+    width: 230px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* Styling return Button Text*/
+.return-home a {
+    text-decoration: none;
+    color: white;
+}
+/*Add a background for return button*/
+.return-home:hover {
+    background-color: #902E21;
+}
+
 
